@@ -16,4 +16,5 @@ before_install:
 
 script:
 - ./gradlew assembleDebug
+- cd app/build/outputs/apk/debug
 - ls
