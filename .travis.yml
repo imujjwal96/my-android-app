@@ -15,6 +15,5 @@ before_install:
 - chmod +x gradlew
 
 script:
-- "./gradlew clean assembleDebug -PdisablePreDex --stacktrace"
-- cd build/android-profile
+- ./gradlew assembleDebug
 - ls
